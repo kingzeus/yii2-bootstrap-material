@@ -1,5 +1,5 @@
 {
-  "name": "romdim/yii2-bootstrap-material",
+  "name": "kingzeus/yii2-bootstrap-material",
   "description": "Composer package for implementing FezVrasta's bootstrap material design in Yii2.",
   "keywords": [
     "yii", "yii2", "bootstrap", "material"
@@ -7,13 +7,18 @@
   "type": "yii2-extension",
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/romdim/yii2-bootstrap-material/issues",
-    "source": "https://github.com/romdim/yii2-bootstrap-material"
+    "issues": "https://github.com/kingzeus/yii2-bootstrap-material/issues",
+    "source": "https://github.com/kingzeus/yii2-bootstrap-material"
   },
   "authors": [
     {
       "name": "Romanos Tsouroplis",
       "email": "rom-dim@hotmail.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Yefei Fan",
+      "email": "fyfcnc@hotmail.com",
       "role": "Developer"
     }
   ],
