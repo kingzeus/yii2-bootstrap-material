@@ -1,6 +1,6 @@
 <?php
 
-namespace romdim\bootstrap\material;
+namespace kingzeus\material;
 
 use yii\web\AssetBundle;
 
