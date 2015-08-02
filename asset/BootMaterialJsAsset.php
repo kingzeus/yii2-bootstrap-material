@@ -1,6 +1,6 @@
 <?php
 
-namespace kingzeus\material;
+namespace kingzeus\material\asset;
 
 use yii\web\AssetBundle;
 
@@ -9,14 +9,14 @@ use yii\web\AssetBundle;
  *
  * @author Romanos Tsouroplis <rom-dim@hotmail.com>
  */
-class BootMaterialCssAsset extends AssetBundle
+class BootMaterialJsAsset extends AssetBundle
 {
 	public $sourcePath = '@bower/bootstrap-material-design/dist';
-	public $css = [
-		'css/ripples.min.css',
-		'css/material-fullpalette.min.css'
+	public $js = [
+		'js/ripples.min.js',
+		'js/material.min.js',
 	];
 	public $depends = [
-		'yii\bootstrap\BootstrapAsset',
+		'yii\web\JqueryAsset',
 	];
 }
